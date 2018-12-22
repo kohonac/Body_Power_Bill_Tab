@@ -38,13 +38,13 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-7000</basePowerConsumption>
+        <basePowerConsumption>-5000</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>5.0</fuelConsumptionRate>
-        <fuelCapacity>250.0</fuelCapacity>
+        <fuelConsumptionRate>1.0</fuelConsumptionRate>
+        <fuelCapacity>25.0</fuelCapacity>
         <fuelFilter>
           <categories>
 	    <li>Corpses</li>
