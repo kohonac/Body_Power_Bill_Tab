@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorkGiverDef>
+    <defName>GT2Refuel</defName>
+    <label>refuel body generator</label>
+    <giverClass>WorkGiver_Refuel</giverClass>
+    <workType>Hauling</workType>
+    <fixedBillGiverDefs>
+      <li>GT2FueledGenerator</li>
+    </fixedBillGiverDefs>
+    <verb>refuel</verb>
+    <gerund>refueling</gerund>
+    <priorityInType>25</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+ </Defs>
